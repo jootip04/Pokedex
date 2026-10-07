@@ -84,7 +84,7 @@ if(erro){
 
 
         <div className="grid grid-cols-2 gap-6
-          sm:grid-cols- md:grid-cols-4 ">
+          sm:grid-cols- md:grid-cols-4">
           {exibidos.map((item) => (
             <PokemonCard
               key={item.id} 

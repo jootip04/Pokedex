@@ -13,9 +13,9 @@ export default function
         <Link
             to={`/pokemon/${nome}`}
             className="group relative flex flex-col items-center
-            rounded-2xl border border-neutral-200 bg-white p-4
+            rounded-2xl border-4 border-black bg-white p-4
             shadow-sm transition hover:-translate-y-1
-            hover:border-red-200 hover:shadow-lg"
+            hover:border-red-500 hover:shadow-lg "
         >
 
         <span className="absolute top-3 font-mono
