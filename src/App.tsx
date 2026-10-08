@@ -107,7 +107,6 @@ if(erro){
          transition hover:-translate-y-2 "
          onClick = { () => setQuantidadeExibida(atual => (atual + 24))}>Ver mais</button>
       
-
         </main>
 
         <footer className="py-6 text-center text-xs 

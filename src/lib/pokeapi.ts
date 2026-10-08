@@ -21,7 +21,7 @@ function imagemSprite(id: number): string {
 }
 
 export async function buscarTodosPokemons(): Promise<PokemonResumo[]>{
-    const resultado = await fetch(`${POKEAPI_URL}/pokemon?limit=200`);
+    const resultado = await fetch(`${POKEAPI_URL}/pokemon?limit=400`);
 
     if (!resultado.ok){
         throw new Error("Não foi possível carregar a lista de pokemons.");
