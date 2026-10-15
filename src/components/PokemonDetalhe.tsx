@@ -1,6 +1,6 @@
 import {useState, useEffect} from "react"
 import {buscarDetalhe, type PokemonDetalhe } from "../lib/pokeapi";
-import { Carregando } from "./carregando";
+import { Carregando } from "./Carregando";
 import { Link } from "react-router";
 import {CoresTipos} from "../lib/tipos";
 
