@@ -43,8 +43,14 @@ export default function PokemonDetalhe({nome}: {nome: string}){
     return(
         <div className=" min-h-screen bg-neutral-50">
             <header className={`${corPrincipal} px-6 py-8 text-white shadow-md`}>
-
             </header>
+
+            <div className=" flex items-center gap-6">
+                <img src={pokemon.imagem}
+                    alt={pokemon.nome}
+                    className="h-28 w-28 drop-shadow-lg sm:h-32 sm:w-32"/>
+
+            </div>
         </div>
     )
 }
