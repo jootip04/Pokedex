@@ -5,7 +5,7 @@ import { Link } from "react-router";
 import {CoresTipos} from "../lib/tipos";
 
 
-export function PokemonDetalhe({nome}: {nome: string}){
+export default function PokemonDetalhe({nome}: {nome: string}){
     const [pokemon, setPokemon] = useState<PokemonDetalhe | null>(null);
 
     const [carregando, setCarregando] = useState(true);
@@ -41,7 +41,10 @@ export function PokemonDetalhe({nome}: {nome: string}){
     const corPrincipal = CoresTipos[pokemon.tipos [0]] ?? "bg-neutral-400";
 
     return(
-        <>
-        </>
+        <div className=" min-h-screen bg-neutral-50">
+            <header className={`${corPrincipal} px-6 py-8 text-white shadow-md`}>
+
+            </header>
+        </div>
     )
 }
